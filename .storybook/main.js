@@ -5,4 +5,11 @@ module.exports = {
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
   ],
+  features: {
+    postcss: false,
+  },
+  framework: "@storybook/vue3",
+  core: {
+    builder: "webpack4",
+  },
 };
