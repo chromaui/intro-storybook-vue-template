@@ -1,4 +1,3 @@
-
 <p align="center">
   <a href="https://www.chromatic.com/">
     <img alt="Chromatic" src="https://avatars2.githubusercontent.com/u/24584319?s=200&v=4" width="60" />
@@ -11,7 +10,7 @@
 
 This template ships with the main Vue and Storybook configuration files you'll need to get up and running fast.
 
-## 🚅  Quick start
+## 🚅 Quick start
 
 1.  **Create the application.**
 
@@ -53,13 +52,15 @@ A quick look at the top-level files and directories included with this template.
     ├── src
     ├── tests
     ├── .gitignore
+    ├── .browserslistrc
+    ├── .gitignore
+    ├── .eslintrc.js
     ├── babel.config.js
     ├── jest.config.js
     ├── LICENSE
     ├── yarn.lock
     ├── package.json
     └── README.md
-
 
 1.  **`.storybook`**: This directory contains Storybook's [configuration](https://storybook.js.org/docs/react/configure/overview) files.
 
@@ -71,19 +72,23 @@ A quick look at the top-level files and directories included with this template.
 
 5.  **`tests`**: This directory will contain all of unit test files for your project.
 
-6.  **`.gitignore`**: This file tells git which files it should not track or maintain during the development process of your project.
+6.  **`.browserslistrc`**: This file contains the list of browsers that your project supports.
 
-7.  **`.babel.config.js`**: This file tells [babel](https://babeljs.io/) how to transpile the application's code.
+7.  **`.eslintrc.js`**: This file contains the configuration for ESLint.
 
-8.  **`jest.config.js`**: This is a configuration file for [Jest](https://jestjs.io/).
+8.  **`.gitignore`**: This file tells git which files it should not track or maintain during the development process of your project.
 
-9. **`LICENSE`**: The template is licensed under the MIT licence.
+9.  **`.babel.config.js`**: This file tells [babel](https://babeljs.io/) how to transpile the application's code.
 
-10. **`package.json`**: Standard manifest file for Node.js projects, which typically includes project specific metadata (such as the project's name, the author among other information). It's based on this file that npm will know which packages are necessary to the project.
+10. **`jest.config.js`**: This is a configuration file for [Jest](https://jestjs.io/).
 
-11. **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(Do not change it manually).**
+11. **`LICENSE`**: The template is licensed under the MIT licence.
 
-12. **`README.md`**: A text file containing useful reference information about the project.
+12. **`package.json`**: Standard manifest file for Node.js projects, which typically includes project specific metadata (such as the project's name, the author among other information). It's based on this file that npm will know which packages are necessary to the project.
+
+13. **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(Do not change it manually).**
+
+14. **`README.md`**: A text file containing useful reference information about the project.
 
 ## Contribute
 
@@ -93,4 +98,4 @@ If you encounter an issue with the template, we encourage you to open an issue i
 
 1. Read our introductory tutorial at [Learn Storybook](https://storybook.js.org/tutorials/intro-to-storybook/vue/en/get-started/).
 2. Learn how to transform your component libraries into design systems in our [Design Systems for Developers](https://storybook.js.org/tutorials/design-systems-for-developers/) tutorial.
-2. See our official documentation at [Storybook](https://storybook.js.org/).
+3. See our official documentation at [Storybook](https://storybook.js.org/).
