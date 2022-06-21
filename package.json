@@ -19,8 +19,7 @@
     "lint": "vue-cli-service lint",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "init-msw": "msw init public/",
-    "test-storybook": "test-storybook"
+    "init-msw": "msw init public/"
   },
   "dependencies": {
     "core-js": "^3.8.3",
