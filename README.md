@@ -50,16 +50,14 @@ A quick look at the top-level files and directories included with this template.
     ├── node_modules
     ├── public
     ├── src
-    ├── tests
     ├── .gitignore
-    ├── .browserslistrc
-    ├── .gitignore
-    ├── .eslintrc.js
-    ├── babel.config.js
-    ├── jest.config.js
+    ├── .eslintrc.cjs
+    ├── .prettierrc.json
+    ├── index.html
     ├── LICENSE
     ├── yarn.lock
     ├── package.json
+    ├── vite.config.js
     └── README.md
 
 1.  **`.storybook`**: This directory contains Storybook's [configuration](https://storybook.js.org/docs/react/configure/overview) files.
@@ -70,25 +68,23 @@ A quick look at the top-level files and directories included with this template.
 
 4.  **`src`**: This directory will contain all of the code related to what you will see on your application.
 
-5.  **`tests`**: This directory will contain all of unit test files for your project.
+5.  **`.gitignore`**: This file tells git which files it should not track or maintain during the development process of your project.
 
-6.  **`.browserslistrc`**: This file contains the list of browsers that your project supports.
+6.  **`.eslintrc.cjs`**: This file contains the configuration for ESLint.
 
-7.  **`.eslintrc.js`**: This file contains the configuration for ESLint.
+7.  **`.prettierrc.json`**: This file contains the configuration for Prettier.
 
-8.  **`.gitignore`**: This file tells git which files it should not track or maintain during the development process of your project.
+8.  **`.index.html`**: This is the HTML page that is served when generating a development or production build.
 
-9.  **`.babel.config.js`**: This file tells [babel](https://babeljs.io/) how to transpile the application's code.
+9.  **`LICENSE`**: The template is licensed under the MIT licence.
 
-10. **`jest.config.js`**: This is a configuration file for [Jest](https://jestjs.io/).
+10. **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(Do not change it manually).**
 
-11. **`LICENSE`**: The template is licensed under the MIT licence.
+11. **`package.json`**: Standard manifest file for Node.js projects, which typically includes project specific metadata (such as the project's name, the author among other information). It's based on this file that npm will know which packages are necessary to the project.
 
-12. **`package.json`**: Standard manifest file for Node.js projects, which typically includes project specific metadata (such as the project's name, the author among other information). It's based on this file that npm will know which packages are necessary to the project.
+12. **`vite.config.js`**: This is the configuration file for [Vite](https://vitejs.dev/), a build tool that aims to provide a faster and leaner development experience for modern web projects.
 
-13. **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(Do not change it manually).**
-
-14. **`README.md`**: A text file containing useful reference information about the project.
+13. **`README.md`**: A text file containing useful reference information about the project.
 
 ## Contribute
 
