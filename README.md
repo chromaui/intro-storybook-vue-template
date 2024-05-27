@@ -54,6 +54,7 @@ A quick look at the top-level files and directories included with this template.
     ├── .eslintrc.cjs
     ├── .prettierrc.json
     ├── index.html
+    |── jsconfig.json
     ├── LICENSE
     ├── yarn.lock
     ├── package.json
@@ -76,15 +77,17 @@ A quick look at the top-level files and directories included with this template.
 
 8.  **`.index.html`**: This is the HTML page that is served when generating a development or production build.
 
-9.  **`LICENSE`**: The template is licensed under the MIT licence.
+9.  **`jsconfig.json`**: This file specifies the root files and the options for the features provided by the JavaScript language service.
 
-10. **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(Do not change it manually).**
+10. **`LICENSE`**: The template is licensed under the MIT licence.
 
-11. **`package.json`**: Standard manifest file for Node.js projects, which typically includes project specific metadata (such as the project's name, the author among other information). It's based on this file that npm will know which packages are necessary to the project.
+11. **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(Do not change it manually).**
 
-12. **`vite.config.js`**: This is the configuration file for [Vite](https://vitejs.dev/), a build tool that aims to provide a faster and leaner development experience for modern web projects.
+12. **`package.json`**: Standard manifest file for Node.js projects, which typically includes project specific metadata (such as the project's name, the author among other information). It's based on this file that npm will know which packages are necessary to the project.
 
-13. **`README.md`**: A text file containing useful reference information about the project.
+13. **`vite.config.js`**: This is the configuration file for [Vite](https://vitejs.dev/), a build tool that aims to provide a faster and leaner development experience for modern web projects.
+
+14. **`README.md`**: A text file containing useful reference information about the project.
 
 ## Contribute
 
